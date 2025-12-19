@@ -7,9 +7,9 @@ import java.sql.SQLException;
 public class Connect {
 
     private String driver = "org.postgresql.Driver";
-    private String url = "jdbc:postgresql://195.150.230.208:5432/2024_armatys_norbert";
-    private String user = "2024_armatys_norbert";
-    private String pass = "Credemhi787";
+    private String url = "";
+    private String user = "";
+    private String pass = "";
     private Connection connection;
 
     public Connect() {
